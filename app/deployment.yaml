@@ -29,7 +29,7 @@ spec:
         app: my-first-app
     spec:
       containers:
-      - image: ghcr.io/logano02/my-first-app:sha256-ad4fa14a59c85ed43a4e9dc1f3d83cc5b7df3f0abde2ee6570d03bd8ff9f2fe7.sig
+      - image: ghcr.io/logano02/my-first-app:v1.0.0
         name: my-first-app
         ports:
         - containerPort: 80
